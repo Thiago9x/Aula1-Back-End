@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#formContatos{
+    width: 600px;
+    height: 350px;
+    border: solid 2px black;
+    box-shadow: 8px 8px 3px  black;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+    background-color:deeppink;
+}
+textarea{
+/*    desabilita a opção de redimencionar a caixa*/
+    resize: none;
+}
+div{
+    padding-top: 5px
+}
+input{
+/*    Desabilitar as borda em relevo*/
+    outline: none;
+}
+body{
+    background-color: aqua;
+}
+h1{
+    width: inherit;
+    height: 50px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    
+}
+.variaveis{
+    font-weight: bold;
+    color:deeppink;
+}
+
